@@ -13,15 +13,11 @@ html {
 	margin: 0;
 	padding: 0;
 	}
-
 body { 
-	box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
-/* 	color: #555753;  */
+	color: #555753; 
+	background: #fff url(blossoms.jpg) no-repeat bottom right; 
 	margin: 0; 
 	padding: 0;
 	}
@@ -57,16 +53,12 @@ abbr {
 /* specific divs */
 .page-wrapper { 
 	background: url(zen-bg.jpg) no-repeat top left; 
-/* 	padding: 0 175px 0 110px;   */
+	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
 	}
+
 .intro { 
-	border-color: red;
-  background-image: url('waterfall-koi_s4x3.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;   
 	min-width: 470px;
 	width: 100%;
 	}
@@ -99,31 +91,12 @@ header {
 	padding-top: 20px;
 	height: 87px;
 }
-.explanation {
-	margin-left: 2%;
-    width: 92%;
-}
-.explanation:hover{
-	width: 150px;
-}
 
-.explanation{
-    background: clear;
-    position: fixed;
-    top: 50px;
-    right: 100px;
-    width: 15px;
-    transition: 3s width;
-    transition-property: width;
-    transition-duration: 3s;
-    transition-timing-function: initial;
-    transition-delay: initial;
-}
 .summary {
-/* 	clear: both;  */
-	margin: 300px 20px 20px 10px; 
-/* 	width: 160px;  */
-/* 	float: left; */
+	clear: both; 
+	margin: 20px 20px 20px 10px; 
+	width: 160px; 
+	float: left;
 	}
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
@@ -131,11 +104,8 @@ header {
 	}
 
 .preamble {
-/* 	clear: right;  */
-/* 	padding: 0px 10px 0 10px; */
-	position: fixed;
-	top: 50;
-	left: 10;
+	clear: right; 
+	padding: 0px 10px 0 10px;
 	}
 .supporting {	
 	padding-left: 10px; 
@@ -148,33 +118,9 @@ footer {
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
 	}
-.sidebar:hover{
-	width: 150px;
-}
-.select:before{
-	content: "Samples here";
-/* 	width: 600px; */
-/* 	margin-left: 12rem; */
-	position: absolute;
-	right: 1rem;
-}
 
-
-
-.sidebar{
-    background: clear;
-    position: fixed;
-    top: 50px;
-    right: 0px;
-    width: 15px;
-    transition: 3s width;
-    transition-property: width;
-    transition-duration: 3s;
-    transition-timing-function: initial;
-    transition-delay: initial;
-}
 .sidebar {
-/* 	margin-left: 600px;  */
+	margin-left: 600px; 
 	position: absolute; 
 	top: 0; 
 	right: 0;
